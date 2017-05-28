@@ -2,7 +2,7 @@ const meta = require('./package.json')
 
 const env = {
   user: 'ubuntu',
-  host: process.env.HOST || 'ec2-52-221-245-27.ap-southeast-1.compute.amazonaws.com',
+  host: process.env.SERVER_HOST,
   key: process.env.KEY_PATH || '~/.ssh/aws_key.pem"',
   repo: meta.repository.url,
   path: '/home/ubuntu/node-aws'

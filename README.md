@@ -17,6 +17,7 @@ yarn start
 ## Deployment
 
 ```sh
-yarn setup
-yarn deploy
+export IP=X.X.X.X
+SERVER_HOST=$IP yarn setup:dev
+SERVER_HOST=$IP yarn deploy:dev
 ```
