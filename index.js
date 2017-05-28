@@ -1,9 +1,11 @@
 const express = require('express')
 const app = express()
 
+const NODE_ENV = process.env.NODE_ENV
+const PORT = process.env.PORT
+
 app.get('/', (req, res) => {
-  res.send('HELLO')
+  res.send(`Hello from ${NODE_ENV}:${PORT}`)
 })
 
-app.listen(3000, () => console.log('Server running on port 3000'))
-
+app.listen(PORT, () => console.log(`Server on ${NODE_ENV}:${PORT}`))
