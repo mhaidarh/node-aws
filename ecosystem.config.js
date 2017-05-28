@@ -2,7 +2,7 @@ const env = {
   user: 'ubuntu',
   host: process.env.HOST || 'ec2-52-221-245-27.ap-southeast-1.compute.amazonaws.com',
   port: 22,
-  key: '~/.ssh/key.pem"',
+  key: process.env.KEY_PATH || '~/.ssh/key.pem"',
   repo: 'git@github.com:mhaidarh/node-aws.git',
   path: '/home/ubuntu/node-aws'
 }
