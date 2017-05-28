@@ -4,7 +4,8 @@ const env = {
   user: 'ubuntu',
   host: process.env.HOST || 'ec2-52-221-245-27.ap-southeast-1.compute.amazonaws.com',
   key: process.env.KEY_PATH || '~/.ssh/aws_key.pem"',
-  repo: meta.repository.url
+  repo: meta.repository.url,
+  path: '/home/ubuntu/node-aws'
 }
 
 module.exports = {

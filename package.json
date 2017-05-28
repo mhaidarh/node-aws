@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhaidarh/node-aws.git"
+    "url": "git@github.com/mhaidarh/node-aws.git"
   },
   "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
   "license": "MIT",
