@@ -10,7 +10,8 @@
     "delete": "pm2 delete ecosystem.config.js",
     "setup": "pm2 deploy ecosystem.config.js production setup",
     "deploy": "pm2 deploy ecosystem.config.js production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp env.sample.js env.js"
   },
   "repository": {
     "type": "git",
