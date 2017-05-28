@@ -1,0 +1,23 @@
+{
+  "name": "node-aws",
+  "version": "1.0.0",
+  "description": "Try Node.js on AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaidarh/node-aws.git"
+  },
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhaidarh/node-aws/issues"
+  },
+  "homepage": "https://github.com/mhaidarh/node-aws#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
