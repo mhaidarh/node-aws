@@ -12,5 +12,11 @@ yarn
 
 ```sh
 yarn start
+```
+
+## Deployment
+
+```sh
+yarn setup
 yarn deploy
 ```
